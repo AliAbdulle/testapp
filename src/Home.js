@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 
-//import './bootstrap/dist/css/bootstrap.css';
-
-
 class Home extends Component {
   render() {
     return (
@@ -32,7 +29,6 @@ class Home extends Component {
             <a href="/login" className="btn btn-outline-primary mr-2">
               Log In
                 </a>
-
             <a href="/meetings" className="btn btn-primary">
               Meetings
                 </a>
