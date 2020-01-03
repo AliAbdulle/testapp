@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Home extends Component {
   render() {
+      const {user} = this.props;
     return (
 
       <div className="container text-center">
@@ -22,16 +23,22 @@ class Home extends Component {
               with <a href="https://firebase.google.com">Firebas </a>.
         </p>
 
-
-            <a href="/register" className="btn btn-outline-primary mr-2">
+              {user == null && (
+                  <span>
+                      <a href="/register" className="btn btn-primary">
               Register
              </a>
-            <a href="/login" className="btn btn-outline-primary mr-2">
+            <a href="/login" className="btn btn-danger">
               Log In
                 </a>
-            <a href="/meetings" className="btn btn-primary">
-              Meetings
-                </a>
+                  </span>
+              )}
+            {user && (
+                 <a href="/meetings" className="btn btn-primary">
+                 Meetings
+                   </a>
+            )}
+           
 
           </div>  {' '}
           {/** columns */}
