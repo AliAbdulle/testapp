@@ -28,7 +28,7 @@ class Home extends Component {
                       <a href="/register" className="btn btn-primary">
               Register
              </a>
-            <a href="/login" className="btn btn-danger">
+            <a href="/login" className="btn btn-secondary">
               Log In
                 </a>
                   </span>
