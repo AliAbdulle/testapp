@@ -25,10 +25,10 @@ class Home extends Component {
 
               {user == null && (
                   <span>
-                      <a href="/register" className="btn btn-primary">
+                      <a href="/register" className="btn btn-primary ml-1">
               Register
              </a>
-            <a href="/login" className="btn btn-secondary">
+            <a href="/login" className="btn btn-primary">
               Log In
                 </a>
                   </span>

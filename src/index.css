@@ -2,7 +2,14 @@ body{
   font-weight: 200;
 }
 input,
-nav-item{
+nav-bar{
   font-weight: 200;
   line-height: 110;
+}
+.btn btn-outline-secondary{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2px;
+  border-radius: 1.em;
+  border: black;
 }
