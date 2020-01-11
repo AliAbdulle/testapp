@@ -38,8 +38,6 @@ class Home extends Component {
                  Meetings
                    </a>
             )}
-           
-
           </div>  {' '}
           {/** columns */}
         </div>
